@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "script.js" defer></script>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div class = "main">
+    <div id = "settings">
+        <div>
+        <label>n:</label>
+        <select id = "number">
+            <option value = "4">4</option>
+            <option value = "16">16</option>
+            <option value = "32">32</option>
+            <option value = "64">64</option>
+            <option value = "128">128</option>
+        </select>
+        </div>
+        <div>
+        <label>mode: </label>
+        <select id = "mode">
+            <option value = "rainbow">rainbow</option>
+            <option value = "faded">faded</option>
+            <option value = "solid">solid</option>
+        </select>
+        </div>
+        <div>
+        <label>color: </label>
+        <input type = "color" value = "#000000" id = "mycolor">
+        </div>
+    </div>
+    <div id = "canvas"></div>
+    </div>
+</body>
+</html>
